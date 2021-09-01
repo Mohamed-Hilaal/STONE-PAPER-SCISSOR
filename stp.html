@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StonePaperScissor</title>
+    <link rel="stylesheet" href="paper.css">
+</head>
+<body>
+         <div class="Container-1" >
+         <div class="text" id="text"><h1>STONE PAPER SCISSOR</h1></div>
+         <div class="Conatiner-2" id="Container-Image">
+         <img id="stone" src='./pic/stone.png' alt="stone" onclick="StonePaperScissor(this)">
+         <img id="paper" src="./pic/paper.png" alt="paper"  onclick="StonePaperScissor(this)">
+         <img id="scissor" src="./pic/scissor.jpg" alt="scissor"  onclick="StonePaperScissor(this)">    
+                 
+        </div>
+        <div class="Container-3" id="Result">
+          
+            <audio id="sound1" src="./Sounds/cash.mp3"></audio> 
+             <audio id="sound2" src="./Sounds/aww.mp3"></audio> 
+             <audio id="sound3" src="./Sounds/swish.m4a"></audio>     
+        </div>
+        <table id="tableScore">
+            <tr>
+                <th id="yourScore">YOUR SCORE</th>
+                <th id="myScore">MY SCORE</th>
+            </tr>
+            <tr>
+                <td id="yourScore1">0</td>
+                <td id="myScore1">0</td>
+            </tr>
+
+        </table>
+
+        <button id="Next" onclick="nextBtn()" style="font-size: 30px;" >Next</button>
+    
+
+    </div>
+
+    
+
+    <script src="paper.js"></script>
+</body>
+</html>

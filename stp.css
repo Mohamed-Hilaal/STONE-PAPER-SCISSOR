@@ -1,0 +1,91 @@
+*{
+    margin: none;
+    padding: none;
+    background-color: grey;
+
+}
+
+.Container-1{
+    width: 80%;
+    margin: 89px;
+   
+}
+
+.text{
+     text-align: center;
+     margin: 30px;
+     color: rgb(85, 17, 17);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 15px;
+
+     
+}
+
+.Conatiner-2{
+    display: flex;
+    border:  2px solid black;
+    
+    
+    padding: 20px;
+    justify-content: space-around;
+
+
+    }
+#stone1 ,#scissor1,#paper1{
+    margin-right: 90px;
+    
+}
+
+img{
+    box-shadow:  0 10px 20px rgb(6, 6, 7);
+    border-radius: 20%;
+    
+}
+    #hello{
+     justify-content: space-around;
+ }
+
+
+.Conatiner-3{
+    width:50% ;
+    margin-left: 25%;
+    
+  
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+
+}
+.Conatiner-3 text{
+    margin-top: 50%;
+}
+
+
+.dtot{
+    border: black 3px;
+}
+
+
+
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+th,td{
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+table{
+    margin-left: 38%;
+    margin-bottom: 30px;
+}
+button{
+    background-color: rgb(80, 80, 161); font-size:20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border-radius: 6px; border: none; outline: none; height: 50px;
+         margin-left: 43%;width: 120px; color: whitesmoke;
+}
